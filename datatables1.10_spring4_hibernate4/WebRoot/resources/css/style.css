@@ -1,0 +1,439 @@
+@CHARSET "UTF-8";
+
+/*!
+ * @copyright Copyright &copy; Kartik Visweswaran, Krajee.com, 2014 - 2015
+ * @package bootstrap-fileinput
+ * @version 4.1.9
+ *
+ * File input styling for Bootstrap 3.0
+ * Built for Yii Framework 2.0
+ * Author: Kartik Visweswaran
+ * Year: 2015
+ * For more Yii related demos visit http://demos.krajee.com
+ */
+.file-input {
+    overflow-x: auto;
+}
+
+.file-loading {
+    top: 0;
+    right: 0;
+    width: 25px;
+    height: 25px;
+    font-size: 999px;
+    text-align: right;
+    color: #fff;
+    background: transparent url('../img/loading.gif') top left no-repeat;
+    border: none;
+}
+
+.btn-file {
+    position: relative;
+    overflow: hidden;
+}
+
+.btn-file input[type=file] {
+    position: absolute;
+    top: 0;
+    right: 0;
+    min-width: 100%;
+    min-height: 100%;
+    text-align: right;
+    opacity: 0;
+    filter: alpha(opacity=0);
+    opacity: 0;
+    background: none repeat scroll 0 0 transparent;
+    cursor: inherit;
+    display: block;
+}
+
+.file-caption .glyphicon {
+    display: inline-block;
+    min-width: 18px;
+    margin-top: 2px;
+}
+
+.file-caption-name {
+    display: inline-block;
+    overflow: hidden;
+    max-height: 20px;
+    padding-right: 10px;
+    word-break: break-all;
+}
+
+.file-caption-ellipsis {
+    position: absolute;
+    right: 10px;
+    margin-top: -6px;
+    font-size: 1.2em;
+    display: none;
+    font-weight: bold;
+    cursor: default;
+}
+
+.kv-has-ellipsis .file-caption-ellipsis {
+    display: inline;
+}
+
+.kv-has-ellipsis {
+    padding-right: 17px;
+}
+
+.kv-search-container .kv-search-clear {
+    position: absolute;
+    padding: 10px;
+    right: 0px;
+}
+
+.file-error-message {
+    background-color: #f2dede;
+    color: #a94442;
+    text-align: center;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+.file-error-message pre, .file-error-message ul {
+    margin: 5px 0;
+    padding: 0 20px;
+    text-align: left;
+}
+
+.file-caption-disabled {
+    background-color: #EEEEEE;
+    cursor: not-allowed;
+    opacity: 1;
+}
+
+.file-input .btn[disabled], .file-input .btn .disabled {
+    cursor: not-allowed;
+}
+
+.file-preview {
+    border-radius: 5px;
+    border: 1px solid #ddd;
+    padding: 5px;
+    width: 100%;
+    margin-bottom: 5px;
+}
+
+.file-preview-frame {
+    display: table;
+    margin: 8px;
+    height: 160px;
+    border: 1px solid #ddd;
+    box-shadow: 1px 1px 5px 0px #a2958a;
+    padding: 6px;
+    float: left;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.file-preview-frame:hover {
+    box-shadow: 3px 3px 5px 0px #333;
+}
+
+.file-preview-image {
+    height: 160px;
+    vertical-align: text-center;
+}
+
+.file-preview-text {
+    width: 213px;
+    height: 160px;
+    color: #428bca;
+    font-size: 11px;
+    text-align: center;
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+
+.file-preview-text-h2{
+	margin-top:70px;
+}
+
+.file-preview-other {
+    padding-top: 70px;
+    text-align: center;
+    height: 160px;
+}
+
+.file-preview-other i {
+    font-size: 2.4em;
+}
+
+.file-other-error {
+    width: 100%;
+    padding-top: 30px;
+    text-align: right
+}
+
+.file-input-new .file-preview, .file-input-new .close, .file-input-new .glyphicon-file,
+.file-input-new .fileinput-remove-button, .file-input-new .fileinput-upload-button,
+.file-input-ajax-new .fileinput-remove-button, .file-input-ajax-new .fileinput-upload-button {
+    display: none;
+}
+
+.loading {
+    background: transparent url('../img/loading.gif') no-repeat scroll center center content-box !important;
+}
+
+.wrap-indicator {
+    font-weight: bold;
+    color: #245269;
+    cursor: pointer;
+}
+
+.file-actions {
+    text-align: left;
+}
+
+.file-footer-buttons {
+    float: right;
+}
+
+.file-thumbnail-footer .file-caption-name {
+    padding-top: 4px;
+    font-size: 11px;
+    color: #777;
+}
+
+.file-upload-indicator {
+    padding-top: 2px;
+    cursor: default;
+    outline: none;
+}
+
+.file-upload-indicator:hover {
+    /* font-size: 1.2em;
+    font-weight: bold;*/
+    padding-top: 2px; 
+}
+
+.file-drop-zone {
+    border: 1px dashed #aaa;
+    border-radius: 4px;
+    height: 100%;
+    text-align: center;
+    vertical-align: middle;
+    margin: 12px 15px 12px 12px;
+    padding: 5px;
+}
+
+.file-drop-zone-title {
+    color: #aaa;
+    font-size: 20px;
+    padding: 85px 10px;
+}
+
+.highlighted {
+    border: 2px dashed #999 !important;
+    background-color: #f0f0f0;
+}
+
+.file-uploading {
+    background-image: url('../img/loading-sm.gif');
+    background-position: center bottom 10px;
+    background-repeat: no-repeat;
+    opacity: 0.6;
+}
+
+.file-icon-large {
+    font-size: 1.2em;
+}
+
+
+/* bootstrap */
+	/* table */
+	.table>thead>tr>td.active, .table>tbody>tr>td.active, .table>tfoot>tr>td.active,
+	.table>thead>tr>th.active, .table>tbody>tr>th.active, .table>tfoot>tr>th.active,
+	.table>thead>tr.active>td, .table>tbody>tr.active>td, .table>tfoot>tr.active>td,
+	.table>thead>tr.active>th, .table>tbody>tr.active>th, .table>tfoot>tr.active>th{
+		background-color: rgb(255, 255, 153);
+	}
+
+	.table-hover > tbody > tr:hover {
+		background-color: rgb(255, 255, 153);
+	}
+	
+	.table>thead>tr>th, .table>tbody>tr>th, .table>tfoot>tr>th, .table>thead>tr>td,
+	.table>tbody>tr>td, .table>tfoot>tr>td {
+		vertical-align: middle;
+	}
+
+.btn:focus, .btn:active:focus, .btn.active:focus, .btn.focus, .btn:active.focus, .btn.active.focus, .close:focus{
+	outline:none;
+}
+.dropdown-menu{
+	padding:0;
+}
+.modal-content{
+	border: none;
+}
+.bootstrap-select.btn-group .dropdown-menu {
+    z-index: 3000;
+}
+
+@media (min-width: 1200px) {
+  .modal-lg {
+    width: 1140px;
+  }
+}
+
+/* bootstrap-select.css */
+.bootstrap-select .btn:focus{
+	outline: none !important;
+}
+.bootstrap-select.form-control,.bootstrap-select .btn:focus{
+	border-color:rgb(204,204,204);
+	-webkit-box-shadow: none;
+	box-shadow: none;
+}
+/* 在输入表单和表单验证图标之上  */
+.bootstrap-select.form-control{
+	z-index:auto;
+}
+
+
+/* bootstrap-dialog */
+.bootstrap-dialog .modal-header{
+	border-top-left-radius: 0;
+	border-top-right-radius: 0;
+}
+.bootstrap-dialog .bootstrap-dialog-close-button:focus,.bootstrap-dialog .bootstrap-dialog-close-button .close:focus {
+	outline:none;
+}
+
+
+/* dataTables.bootstrap.css */
+.table tr th,.table tr td{
+	font-size:14px;
+	vertical-align: middle;
+	text-align: center;
+}
+table.dataTable{
+	margin-top:0px;
+	border-top: 1px solid #dddddd;
+	border-bottom: 1px solid #dddddd;
+}
+div.dataTables_info{
+	font-size:14px;
+	text-align: center;
+}
+div.dataTables_paginate{
+	text-align: center;
+}
+.table.dataTable tbody tr.active:hover td, .table.dataTable tbody tr.active:hover th {
+	background-color: rgb(255, 255, 153) !important;
+}
+.table.dataTable tbody tr.active td, .table.dataTable tbody tr.active th {
+	background-color: rgb(255, 255, 153);
+	color:inherit;
+}
+table.home-table{
+	border-top: none;
+	margin-top: 0 !important;
+	margin-bottom: 0 !important;
+}
+
+
+/* Jstree */
+.jstree-default .jstree-clicked {
+  border: 0;
+  background-color: #e1e1e1;
+  box-shadow:none;
+}
+
+.jstree-default .jstree-hovered {
+  border: 0;
+  background-color: #eee;
+  box-shadow:none;
+}
+
+.jstree-default .jstree-wholerow-clicked,
+.jstree-wholerow .jstree-wholerow-clicked {
+  background: none;
+  border: 0;
+  background-color: #e1e1e1;
+  box-shadow:none;
+}
+
+.jstree-default .jstree-wholerow-hovered,
+.jstree-wholerow .jstree-wholerow-hovered {
+  border: 0;
+  background-color: #eee;
+  box-shadow:none;
+} 
+
+.jstree-icon.icon-lg {
+  margin-top: 1px;
+}
+
+.jstree-open > .jstree-anchor > .fa-folder:before {
+  margin-left: 2px;
+  content: "\f07c"; 
+}
+
+.jstree-default.jstree-rtl .jstree-last {
+  background: transparent;
+  background-repeat: no-repeat;
+}
+.jstree-default .jstree-anchor{
+	font-size:14px;
+}
+.vakata-context{
+	z-index:1040;
+}
+.vakata-context,
+.vakata-context ul {
+  padding: 0;
+  min-width: 125px;
+  background-color: #ffffff;
+  -webkit-box-shadow: 0 1px 8px rgba(0, 0, 0, 0.1);
+  -moz-box-shadow: 0 1px 8px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 1px 8px rgba(0, 0, 0, 0.1);  
+  font-size: 14px;
+  border: 1px solid #ddd;
+}
+
+.vakata-context li a {
+  padding: 0 10px;
+}
+
+.vakata-context .vakata-context-hover > a,
+.vakata-context li a:hover {
+  background-color: #eee;
+  color: #333;
+  box-shadow: none;
+}
+
+.vakata-context li a span,
+.vakata-context li a ins {
+  display: none;
+}
+
+.vakata-context .vakata-context-separator a, 
+.vakata-context-rtl .vakata-context-separator a {
+  margin: 0;
+}
+
+.jstree-rename-input {
+  background-color: #ffffff !important;
+  border: 1px solid #e5e5e5 !important;
+  outline: none !important;
+  padding: 2px 6px !important;
+  margin-right: -4px !important;
+}
+
+
+/* Bootstrap Context Menu */
+.context-menu .dropdown-menu{
+	min-width: 0;
+}
+.context-menu .dropdown-menu .divider{
+	margin:0;
+}
+.context-menu .dropdown-header{
+	font-size:14px;
+	border-bottom: 1px solid #e5e5e5;
+}

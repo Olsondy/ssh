@@ -1,0 +1,22 @@
+{
+    "processing":     "<div class='progress-bar progress-bar-striped active' aria-valuemin='0' aria-valuemax='100' style='width: 100%'><label>正在加载,请稍候......</label></div>",
+    "search":         "搜索:",
+    "lengthMenu":     "显示 _MENU_ 项",
+    "info":           "第 _START_ 至 _END_ 项，共 _TOTAL_ 项",
+    "infoEmpty":      "显示第 0 至 0 项数据，共 0 项",
+    "infoFiltered":   "(由 _MAX_ 项结果过滤)",
+    "infoPostFix":    "",
+    "loadingRecords": "载入中...",
+    "zeroRecords":    "找不到匹配的数据",
+    "emptyTable":     "表中数据为空",
+    "paginate": {
+        "first":      "首页",
+        "previous":   "上页",
+        "next":       "下页",
+        "last":       "末页"
+    },
+    "aria": {
+        "sortAscending":  ": 以升序排列此列",
+        "sortDescending": ": 以降序排列此列"
+    }
+}

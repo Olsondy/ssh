@@ -1,0 +1,73 @@
+.cz-panel-other, .cz-container-account {
+	box-shadow: 3px 3px 4px rgba(12, 12, 12, 0.4);
+	/*background: rgb(228, 231, 234);*/
+	font-size: 14px;
+}
+
+.cz-panel-account {
+	text-align: center;
+}
+#external-events .active{
+	background-color: #1d2939;
+}
+#nameList{
+	height:240px;overflow: hidden;
+}
+#nameList .external-event{
+	height:30px;
+}
+
+.accounts {
+	margin: 0 auto 30px;
+	background-color: transparent;
+	border: 1px solid #cdbfe3;
+	width: 144px;
+	height: 144px;
+	font-size: 108px;
+	line-height: 140px;
+	display: block;
+	font-weight: 500;
+	color: #fff;
+	text-align: center;
+	cursor: default;
+	background-color: rgb(48, 54, 65);
+	border-radius: 15px;
+}
+
+.cz-panel-account .lead {
+	margin: 0 auto 30px;
+	font-size: 20px;
+}
+
+@media ( min-width : 768px) {
+	.cz-panel-account {
+		padding: 80px 0
+	}
+	.cz-panel-account .lead {
+		font-size: 24px
+	}
+}
+
+@media ( min-width : 992px) {
+	.cz-panel-account .lead {
+		width: 80%;
+		font-size: 30px
+	}
+}
+#overlay .progress{
+	position: relative;
+	top:50%;
+	bottom:50%;
+	width:50%;
+	margin:0 auto;
+}
+#overlay {
+	background: gray;
+	opacity:1; /* 透明度 */
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	width: 100%;
+	height: 100%;
+	z-index: 1000; /* 图层要大于页面 */
+}
