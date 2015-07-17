@@ -1,6 +1,6 @@
-# jqueryDatatable和后台 交互例子
+# jquerydatatable +spring mvc交互例子
 
-####后端采用sringMvc+hibernate注解
+####后端采用springMvc+hibernate注解
 ####前端采用bootstrap和相关的一些插件.
 ####全部是异步交互数据, 使用的插件会陆续添加
 ####时间不是很多 抽了点时间做了个简单的例子,有分页查询,按条件查询 模糊查询 自动补全,修改,新增
